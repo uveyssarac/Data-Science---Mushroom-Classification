@@ -64,24 +64,25 @@
 
 ![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_11.png)
 
+##### • Class property and other properties are reserved for the implementation of algorithms. Then it was separated as test and train. One of the important points here is that we have given the random state manually. The reason for this is to use the same test and train sets, using the same random state number, if we separate them as test trains.
+
+
 ![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_12.png)
+
+##### • Logistic regression was applied with different C parameters. And the results were best seen as 0.968 at C=100.
+
 
 ![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_13.png)
 
+##### • KNN was applied with different K parameters. And the results were best seen as 0.999 at C=1.
 
+##### These are the results on our data without feature selection applied. And it seems that the KNN algorithm does a good classification with an acuuracy value of 0.99.
 
+#### The results in the logistic regression with the dataset in which we removed 4 features withFeature Selection were better than the results of the data without Feature Selection.
 
-
-
-
-
-
-
-
-
-
-
-
-
+      C:1000.0 for accuracy  = 0.969
+#### We achieved accuracy = 1 with feature selection and parameter tuning in KNN
+      K:1 for accuracy  = 1.000
+#### In the last classification with KNN, the accuracy score was 1.0, which means that we can classify any mushroom given to us with 100% accuracy whether it is edible or poisonous by looking at its characteristics.
 
 
