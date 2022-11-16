@@ -39,3 +39,33 @@
 #### As usual, for the Supervised Learning Algorithm (Logistic Regression), we simply train the model on 80% of the mushroom data, and then test it's performance on the remaining 20%.
 #### The KNN algorithm is applied in the same way.
 #### Finally, we will see which algorithm is better for this dataset.
+
+## What was done :
+### Eda steps:
+##### • It was seen that there are 8124 instances and 23 features.
+##### • It was seen that all features are objects.
+##### • No features of any instance have null values.
+##### • In the graph drawn, the numbers of poisonous and edible are very close to each other. So we have a balanced data set.
+##### • There was a remarkable value when looking at the unique values. This is the unique value of 1 in a feature. If there is such a thing, it means that the feature is the same for all instances. And that means that feature doesn't matter to us. Also, if a unique value is 1, that tells us that its variance is 1.
+##### • This is the feature "veil-type" with a unique number of 1 and we drop it from our dataset.
+##### • As mentioned before, all of our features are objects, ie strings, and we need to enumerate them all.
+##### • There are 2 methods to encode them, label encoder and one hot encoder. We used label encoder here. If we used one hot, there would be a lot of features because all the data we have is categorical. That's why we preferred label encoder.
+##### • From the correlation chart, we saw the featues that had the most impact on the class for us.
+
+![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
