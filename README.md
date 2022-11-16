@@ -54,6 +54,22 @@
 
 ![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_10.png)
 
+##### • As seen above, correlation rates are given according to classes. In this case, the highest correlation belongs to gill-size. The lowest correlation belongs to bruises and gill-color properties. In other words, these 3 features are the ones that affect the class value the most and are the most important for us.
+
+## Feature Selection :
+##### • A feature selection was made according to the Variance treshold. Threshold value is given 0.05. This means that if the feature is 95% the same for all instances, it is dropped.
+• In addition, the selecfrommodel method has been applied and the number of our features has been reduced to 18.
+
+## Application of machine learning algorithms :
+
+![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_11.png)
+
+![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_12.png)
+
+![alt text](https://github.com/uveyssarac/images/blob/main/Screenshot_13.png)
+
+
+
 
 
 
